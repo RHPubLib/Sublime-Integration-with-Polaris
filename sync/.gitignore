@@ -1,0 +1,6 @@
+.env
+polaris_sync.log
+polaris_sync.log.*
+__pycache__/
+*.pyc
+*.pyo

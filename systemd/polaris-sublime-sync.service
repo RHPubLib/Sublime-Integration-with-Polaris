@@ -1,0 +1,8 @@
+[Unit]
+Description=Polaris → Sublime Security patron email sync
+After=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python3 /opt/sublime-sync/polaris_to_sublime_sync.py
+WorkingDirectory=/opt/sublime-sync

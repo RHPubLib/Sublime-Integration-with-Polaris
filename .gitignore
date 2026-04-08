@@ -1,0 +1,9 @@
+sync/.env
+sync/polaris_sync.log
+sync/polaris_sync.log.*
+sync/__pycache__/
+sync/*.pyc
+sync/*.pyo
+*.pyc
+*.pyo
+__pycache__/

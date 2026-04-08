@@ -1,0 +1,11 @@
+[Unit]
+Description=Run Polaris → Sublime sync nightly
+
+[Timer]
+# Adjust to fire AFTER your latest SSRS subscription runs.
+# If your SSRS subscriptions are scheduled at 11:00 PM, 11:30 PM works well.
+OnCalendar=*-*-* 23:30:00
+Persistent=true
+
+[Install]
+WantedBy=timers.target
